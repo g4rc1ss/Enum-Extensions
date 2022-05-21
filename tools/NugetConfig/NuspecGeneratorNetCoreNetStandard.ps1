@@ -11,7 +11,7 @@ $versionNuget = 1.0
 # Nombre del archivo a generar 
 $rutaNuspec = Convert-Path .
 
-$rutaNuspec += '/EnumExtensions.nuspec'
+$rutaNuspec += '/Garciss.EnumExtensions.nuspec'
 
 # Ruta raiz donde localizar los archivos .csproj
 $rutaCSProj = '../../src/src/'
@@ -23,7 +23,7 @@ $rutaDLL = "../PackagesCompilaciones/"
 # ___________________________________________________________
 
 ## Datos del paquete Nuget
-$id = "EnumExtensions"
+$id = "Garciss.EnumExtensions"
 $title = "Enum Extensions"
 $authors = "Asier Garcia"
 $owners = "Asier Garcia"
